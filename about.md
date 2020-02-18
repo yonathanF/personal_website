@@ -4,7 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Yonathan. I'm a computer science student at the [University of Virginia](http://www.virginia.edu/)  pursuing a Bachelor's of Science degree.  I'm particularly interested in the application of theoretical computer science, including complexity theory, compression, cryptography, programming languages and type theory. My current research is at the intersection of these fields: compression-aware algorithms that work in a multi-party computation environment. See my [resume](MyResume.pdf) for more details.
+<img align="right" width="150" height="50" src="{{site.baseurl}}/assets/images/yonathan.jpg">
+
+My name is Yonathan. I'm a computer science student at the [University of Virginia](http://www.virginia.edu/)  pursuing a Bachelor's of Science degree.  I'm particularly interested in the application of theoretical computer science, including complexity theory, compression, cryptography, programming languages and type theory. My current research is at the intersection of these fields: compression-aware algorithms that work in a multi-party computation environment. See my [resume]({{site.baseurl}}/assets/MyResume.pdf) for more details.
 
 # Projects
 

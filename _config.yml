@@ -39,7 +39,7 @@ skin: "/assets/css/skins/default.css"
 copyright: "Yonathan Fisseha. 2020."
 author:
   name: Yonathan Fisseha
-  picture: /images/yonathan.jpg
+  picture: ./assets/images/yonathan.jpg
   email:
   twitter: YonathanFisseha
   links:

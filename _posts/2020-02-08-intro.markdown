@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "A Study in Software Correctness"
-date:  2020-02-08 
+date:  2020-02-18 
 categories: Software-Correctness
 ---
 
-# Motivation
 
 Software engineering is a relatively young field compared to other engineering fields, such as civil engineering. As a result, many of our techniques for software construction are still in the early stages of their evolution. For example, consider that software testing became common only in the late/mid 2000s, and the sentiment that testing is not important is still common. As we generate more data across various industries, the need for secure, reliable, and efficient software also increases. This has become apparent in the number of data breaches both large and small business face, the unreliable applications that plague the app stores, and the painfully inefficient code that is scattered all over the web. Sparse test cases that are written just for the sake of hitting an arbitrary coverage criteria are clearly insufficient. 
 

@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "A Study in Software Correctness"
+date:  2020-02-18 
+categories: Software-Correctness
+---
+
+
+Software engineering is a relatively young field compared to other engineering fields, such as civil engineering. As a result, many of our techniques for software construction are still in the early stages of their evolution. For example, consider that software testing became common only in the late/mid 2000s, and the sentiment that testing is not important is still common. As we generate more data across various industries, the need for secure, reliable, and efficient software also increases. This has become apparent in the number of data breaches both large and small business face, the unreliable applications that plague the app stores, and the painfully inefficient code that is scattered all over the web. Sparse test cases that are written just for the sake of hitting an arbitrary coverage criteria are clearly insufficient. 
+
+My undergraduate study and research has been broadly concerned with addressing some of the problems mentioned above. Particularly, I have been interested in improving algorithmic efficiency via data compression techniques. These series of blogs (see: Software-Correctness category) mark somewhat of a diversion from this path while remaining under the same overarching theme. This will be my independent study of software reliability as I prepare for graduate school to study the topic full-time.
+
+# Plan
+My overarching goal here is to understand how we can construct software with more formal guarantees than simple test cases. The approach I will use it to first study formal methods and verification. Here, I have chosen to take a programming-focused approach since my background is in computer science. I am working through *Gentle Introduction to Dependent Types with Idris* by Boro Sitnikovski. I came across dependent types while I was browsing through a local library and found *Type-Driven Development with Idris* by Edwin Brady. [Idris](https://www.idris-lang.org/) is a programming language with dependent types and enables programmers to write proofs of correctness with their code. I will work through some sections of *Type-Driven Development* once I finish Sitnikovski's book.
+
+I plan on reading and writing on other related works and concepts, e.g. church encoding and lambda calculus in general, Hindley-Damas-Milner type system, typed lambda calculus and why it's not Turing complete, and Brouwer–Heyting–Kolmogorov interpretation. These are topics I have come across but were not covered in depth in the reading I was doing (I expect this list will continue to grow over the course of my study). Eventually, I plan to work through *Purely Functional Data Structures* by Chris Okasaki and (maybe?) *Homotopy Type Theory* from the Institute for Advanced Study.
+
+## Why publish it?
+
+I decided to write these up and publish them as blogs for two reasons:
+
+1. This topic is not very accessible to people outside of the research area. If you are interested in the overall topic or specific parts, this can be a good starting point. 
+2. I usually take digital notes while reading and writing with the intention of publishing might improve my writing/understanding.
+
+
+## Schedule
+
+My goal is to publish 1 article per month at minimum (hopefully more if my schedule allows it).
+

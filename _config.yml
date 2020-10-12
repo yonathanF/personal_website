@@ -1,0 +1,61 @@
+title: Yonathan Fisseha
+email: yonathan.fisseha at gmail dot com
+description: University of Michigan 
+  
+  
+baseurl: ""
+url: "https://yonathanfisseha.com"
+twitter_username: YonathanFisseha
+github_username:  yonathanF
+
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/YonathanFisseha
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/yonathanF
+    icon: fab fa-github-square
+
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+mathjax: true
+
+google_fonts:
+  - name: "Cormorant Garamond"
+    weights: "400,400i,750,750i"
+  - name: "Source Sans Pro"
+    weights: "400,400i,750,750i"
+  
+# Build settings
+remote_theme: "mmistakes/so-simple-theme"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+skin: "/assets/css/skins/default.css"
+copyright: "Yonathan Fisseha. 2020."
+author:
+  name: Yonathan Fisseha
+  picture: /images/yonathan.jpg
+  email:
+  twitter: YonathanFisseha
+  links:
+    - title: Twitter
+      url: https://twitter.com/YonathanFisseha
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/yonathanF
+      icon: fab fa-github-square
+
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: true

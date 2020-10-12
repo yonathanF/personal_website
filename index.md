@@ -4,16 +4,8 @@ title: About Me
 permalink: /
 ---
 
-<img align="left" style="margin:10px" width="150" height="150" src="{{site.baseurl}}/assets/images/yonathan.jpg"> My name is Yonathan. I'm a PhD student at the [University of Michigan Ann Arbor](https://eecs.engin.umich.edu/) working on verifiable software/hardware engineering under [Prof. Todd Austin](https://web.eecs.umich.edu/~taustin/). I received my Bachelor's in computer science from the [University of Virginia](http://www.virginia.edu/).  My undergrad research was on compression-aware algorithms that work in a multi-party computation environment. See my [resume]({{site.baseurl}}/assets/MyResume.pdf) for more details.
+<img align="right" style="margin:10px" width="150" height="150" src="{{site.baseurl}}/assets/images/yonathan.jpg"> My name is Yonathan. I'm a PhD student at the [University of Michigan Ann Arbor](https://eecs.engin.umich.edu/) working on verifiable software/hardware engineering under [Prof. Todd Austin](https://web.eecs.umich.edu/~taustin/). I received my Bachelor's in computer science from the [University of Virginia](http://www.virginia.edu/).  My undergrad research was on compression-aware algorithms that work in a multi-party computation environment. See my [resume]({{site.baseurl}}/assets/MyResume.pdf) for more details.
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 # Projects
 
 ## [Repair Compression](https://github.com/yonathanF/Repair-Graph-Compression)

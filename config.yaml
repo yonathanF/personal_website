@@ -1,0 +1,67 @@
+baseURL: 'https://yonathanfisseha.com'
+languageCode: 'en-us'
+title: 'Yonathan Fisseha'
+theme: "cupper-hugo-theme"
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 90
+
+params:
+  description: My name is Yonathan 👋 I'm a PhD student at the University of Michigan.
+  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  katex: true
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  defaultDarkTheme: false
+  moveFooterToHeader: true
+# navTitleText: Cupper Theme
+  logoAlt: A guy looking into the distance and taking a picture
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /posts/
+      weight: 2
+    - name: RSS
+      url: /index.xml
+      weight: 3
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

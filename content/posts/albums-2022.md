@@ -12,7 +12,7 @@ A lot of great music came out in 2022. Here are some of my favorites, ranked:
 
 I have played FUNKENTOLOGY way way too many times. HANG LOW is unreasonably smooth. MURDA is also nice af.
 
-2. Sick! --Early Sweatshirt
+2. Sick! --Earl Sweatshirt
 
 Lyrically impressive as always. 2010 has a nice flow with bleepy bloop beat and Tabula Rasa has a great feat. This is honestly a no skips album.
 
@@ -44,7 +44,7 @@ Each song feels kinda unique but still fits into the album feel. Really liked Ca
 
 9. No Thank you  --Little Simz
 
-Loved her last album and nothing less here. Would definitely be higher if I had more time to listen to it honestly. Gorilla, Broken, and X are nice.
+Loved her last album and nothing less here. Would definitely be higher if I had more time to listen to it honestly. Angel, Gorilla, Broken, and X are nice.
 
 
 10. Funk Wav Bounces Vol. 2 --Calvin Harris

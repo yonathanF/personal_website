@@ -1,5 +1,5 @@
 ---
-title: "🌱 Albums I Enjoyed in 2022"
+title: "🌲 Albums I Enjoyed in 2022"
 date: 2022-12-25
 draft: false
 ---
@@ -10,7 +10,7 @@ A lot of great music came out in 2022. Here are some of my favorites, ranked:
 
 1. BLK VINTAGE --BLK ODYSSY [^1]
 
-I have played FUNKENTOLOGY way way too many times. HANG LOW is unreasonably smooth. MURDA is also nice af.
+I have played FUNKENTOLOGY way too many times. HANG LOW is unreasonably smooth. MURDA is also nice af.
 
 2. Sick! --Earl Sweatshirt
 
@@ -65,7 +65,9 @@ Making a top 10 is always depressing because there are so many more albums I enj
 - Smithereens --Joji
 - And In The Darkeness, Hearts Aglow --Weyes Blood
 - Wasteland --Brent Faiyaz
+- HERBERT --Ab Soul
 - Caprisongs --FKA twigs
+- Ivory --Omar Apollo
 - Few Good Things --Saba
 - Luv 4 rent --Simno
 - Thee Sacred Souls --Self titled

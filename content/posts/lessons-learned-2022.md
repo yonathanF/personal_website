@@ -6,7 +6,7 @@ draft: false
 
 *Last Updated: December 2022.*
 
-As the year is coming to an end, I'm taking some time to sit down and reflect on 2022. I'm sharing this publicly (as I write it) as a continuation of my experiment with more public long-form texts. Hope you find something useful or interesting. May the new year bring you something great!
+As the year is coming to an end, I'm taking some time to sit down and reflect on 2022 along with two of my friends. We are sharing this publicly as a continuation of our experiment with more public long-form texts. You can find Makonnen's [here](https://www.makonnen.sh/posts/2022-12-30-year-review/) and Branden's [here](https://medium.com/@brandenkim/what-i-learned-in-2022-94421f927721). Hope you find something useful or interesting. May the new year bring you something great!
 
 I've picked three themes for this year: personal, politics, and work. Might make another post down the road specifically expanding on the personal side of things.
 

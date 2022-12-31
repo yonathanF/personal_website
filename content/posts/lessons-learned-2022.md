@@ -4,7 +4,7 @@ date: 2022-12-29
 draft: false
 ---
 
-*Last Updated: December 2022*
+*Last Updated: December 2022.*
 
 As the year is coming to an end, I'm taking some time to sit down and reflect on 2022. I'm sharing this publicly (as I write it) as a continuation of my experiment with more public long-form texts. Hope you find something useful or interesting. May the new year bring you something great!
 

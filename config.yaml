@@ -3,6 +3,10 @@ languageCode: 'en-us'
 title: 'Yonathan Fisseha'
 theme: "cupper-hugo-theme"
 
+taxonomies:
+  tag: tags
+
+
 permalinks:
   post: /:filename/
 

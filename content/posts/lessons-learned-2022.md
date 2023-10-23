@@ -1,5 +1,5 @@
 ---
-title: "🌱 Some Things I Learned in 2022"
+title: "🌲 Some Things I Learned in 2022"
 date: 2022-12-29
 draft: false
 ---

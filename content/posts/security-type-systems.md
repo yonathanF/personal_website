@@ -4,4 +4,6 @@ date: 2023-01-23
 draft: false
 ---
 
+# What can languages say about security
 
+This was the first question I started thinking about while building some of our work. 

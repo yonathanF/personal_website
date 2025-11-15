@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ partialCached "css.html" . }}
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body  class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
+  <header class="max-w-5xl mx-auto px-4">
+    {{ partial "header.html" . }}
+  </header>
+  
+  <main class="flex-grow max-w-5xl mx-auto px-4">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="bg-gray-400 text-black py-0.3 mt-auto">
+         {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

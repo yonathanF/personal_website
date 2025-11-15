@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Global palette */
+:root {
+  --bg-page: #fafaf4;        /* very light warm off-white */
+  --text-main: #222222;      /* dark, not pure black */
+  --text-muted: #6b7280;     /* for metadata */
+  --accent-green: #14532d;   /* deep garden green */
+  --accent-brown: #8b4513;   /* warm brown */
+}
+
+/* Base body styles */
+body {
+  background-color: #fdfdf0;
+  color: #222;
+
+  /* Body: book-ish serif */
+  font-family:
+    "Georgia",
+    "Palatino Linotype",
+    "Book Antiqua",
+    "Times New Roman",
+    ui-serif,
+    serif;
+
+  line-height: 1.7;
+}
+
+/* Navigation / small UI text: cleaner sans */
+header, nav, footer,
+header a, nav a, footer a,
+.smallcaps, .label, .badge {
+  font-family:
+    "Georgia",
+    "Palatino Linotype",
+    "Book Antiqua",
+    "Times New Roman",
+    ui-serif,
+    serif;
+
+}
+
+/* Headings: serif, slightly “printed” */
+h1, h2, h3, h4, h5, h6,
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-family:
+    "Georgia",
+    "Palatino Linotype",
+    "Book Antiqua",
+    "Times New Roman",
+    ui-serif,
+    serif;
+  letter-spacing: 0.03em;
+  color: var(--accent-brown);
+}
+
+/* Prose blocks */
+.prose {
+  color: var(--text-main);
+}
+
+/* Links: green → brown on hover */
+a {
+  color: var(--accent-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-brown);
+  text-decoration: underline;
+}
+
+/* Muted text helper */
+.text-muted {
+  color: var(--text-muted);
+}

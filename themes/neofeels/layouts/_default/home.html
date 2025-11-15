@@ -1,0 +1,245 @@
+{{ define "main" }}
+
+<section class="pt-8 pb-12">
+  <div class="max-w-5xl mx-auto grid gap-8 lg:grid-cols-[minmax(0,2.1fr)_minmax(0,1.3fr)] items-start">
+    
+    <!-- Intro + news column -->
+    <div>
+      <!-- Intro text -->
+      <h1 class="font-bold text-green-900 text-4xl mb-4">
+        Hey, I'm Yonathan
+      </h1>
+      <p class="text-lg text-gray-800 leading-relaxed">
+        I'm a PhD student at the University of Michigan. I'm advised by Prof. Austin and Prof. 
+        Jeannin working at the intersection of computer architecture and programming languages. 
+        My work applies techniques from programming language theory to the security and design 
+        of hardware and ISAs.
+      </p>
+      <p class="text-lg text-gray-800 leading-relaxed mt-4">
+        Outside of work, I spend my time making and drinking coffee ☕️ I also like photography, 
+        working out, and the occasional hiking trips when it's not freezing cold outside.
+      </p>
+
+      <!-- News -->
+      <div class="mt-6 pl-4 border-l-4 border-green-900">
+        <h2 class="text-xs font-semibold tracking-wide text-green-900 uppercase mb-2">
+          Latest news
+        </h2>
+
+        <ul class="space-y-3 text-sm">
+          <li>
+            <p class="font-semibold text-gray-800">Website update</p>
+            <p class="text-gray-500 text-xs">May 01, 2025</p>
+            <p class="text-gray-800 mt-1">
+              The website is getting a much needed update. Hopefully will update 
+              things more than once a year this time :)
+            </p>
+          </li>
+
+          <li>
+            <p class="font-semibold text-gray-800">Will be at Intel this summer</p>
+            <p class="text-gray-500 text-xs">April 01, 2025</p>
+            <p class="text-gray-800 mt-1">
+              Will be working with Intel's GPU compilers team again this summer. 
+              Excited to learn more about memory models.
+            </p>
+          </li>
+
+          <li>
+            <p class="font-semibold text-gray-800">At NYU for</p>
+            <p class="text-gray-500 text-xs">Nov, 2024</p>
+            <p class="text-gray-800 mt-1">
+              Got to present our CCS'23 paper as a poster. It was a lot of fun 
+              talking to all the amazing people at NYU. And NYC was fun as always.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Picture on the right -->
+    <aside class="w-full max-w-sm lg:justify-self-end">
+      <figure class="space-y-2">
+        <img src="/images/at_da_lake.jpg" alt="Yonathan by the lake" class="w-full h-auto rounded-lg shadow-md">
+        <figcaption class="text-xs text-gray-500 text-center">
+          Ironically, somewhere freezing (Lake Superior, 2025)
+        </figcaption>
+      </figure>
+    </aside>
+
+  </div>
+</section>
+
+
+<!-- Projects section -->
+<section class="py-10 border-t border-amber-900/30 mt-8">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-green-900 text-center mb-6">
+      Selected Works
+    </h2>
+  
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project 1 -->
+      <div
+        class="bg-white rounded-2xl shadow-md shadow-amber-900/10 overflow-hidden flex flex-col
+               transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl">
+        <img src="/images/hardkat.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <p class="text-xs tracking-wide text-amber-800 uppercase mb-1">
+              In progress
+            </p>
+            <h3 class="text-xl font-semibold text-gray-900 leading-snug">
+              HardKAT: An Algebraic Approach to HDLs
+            </h3>
+            <p class="text-gray-700 text-sm leading-relaxed mt-3">
+              We apply algebraic techniques, particularly variations of Kleene Algebra, to better 
+              understand the semantics of Hardware Description Languages (HDLs).
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-amber-900/10 flex justify-between items-center text-sm">
+            <a href="/posts/hardkat" class="text-green-900 font-semibold hover:underline">
+              Blog
+            </a>
+            <div class="flex space-x-4">
+              <a href="/files/project-2-slides.pdf" class="text-red-900 hover:underline">Slides</a>
+              <a href="/files/project-2-paper.pdf" class="text-red-900 hover:underline">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 2 -->
+      <div
+        class="bg-white rounded-2xl shadow-md shadow-amber-900/10 overflow-hidden flex flex-col
+               transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl">
+        <img src="/images/se1.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <p class="text-xs tracking-wide text-amber-800 uppercase mb-1">
+              CCS · 2023
+            </p>
+            <h3 class="text-xl font-semibold text-gray-900 leading-snug">
+              🏆 Formal Verification of Low-Trust Architectures
+            </h3>
+            <p class="text-gray-700 text-sm leading-relaxed mt-3">
+              We formalize the semantics and type system of an ISA extension for 
+              low-trust architectures. We then use model checking to verify the 
+              implementation of this extension on a RISC-V core.
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-amber-900/10 flex justify-between items-center text-sm">
+            <a href="/posts/low-trust" class="text-green-900 font-semibold hover:underline">
+              Blog
+            </a>
+            <div class="flex space-x-4">
+              <a href="/files/project-2-slides.pdf" class="text-red-900 hover:underline">Slides</a>
+              <a href="/files/project-2-paper.pdf" class="text-red-900 hover:underline">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project 3 -->
+      <div
+        class="bg-white rounded-2xl shadow-md shadow-amber-900/10 overflow-hidden flex flex-col
+               transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl">
+        <img src="/images/twine.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <p class="text-xs tracking-wide text-amber-800 uppercase mb-1">
+              DATE · 2021
+            </p>
+            <h3 class="text-xl font-semibold text-gray-900 leading-snug">
+              Twine: A Chisel Extension for Component-Level Heterogeneous Design
+            </h3>
+            <p class="text-gray-700 text-sm leading-relaxed mt-3">
+              We provide a Chisel extension that standardizes the interface 
+              between heterogeneous components, allowing for better onboarding.
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-amber-900/10 flex justify-between items-center text-sm">
+            <a href="/posts/twine" class="text-green-900 font-semibold hover:underline">
+              Blog
+            </a>
+            <div class="flex space-x-4">
+              <a href="/files/project-2-slides.pdf" class="text-red-900 hover:underline">Slides</a>
+              <a href="/files/project-2-paper.pdf" class="text-red-900 hover:underline">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div
+        class="bg-white rounded-2xl shadow-md shadow-amber-900/10 overflow-hidden flex flex-col
+               transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl">
+        <img src="/images/se2.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <p class="text-xs tracking-wide text-amber-800 uppercase mb-1">
+              Under Submission · 2025
+            </p>
+            <h3 class="text-xl font-semibold text-gray-900 leading-snug">
+              Integrity Aware, Low-Trust Architectures
+            </h3>
+            <p class="text-gray-700 text-sm leading-relaxed mt-3">
+              We introduce the dual notion of integrity to both 
+              computation and data. This allows the user to verify 
+              that the computation was done faithful. Formalized in Lean4. 
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-amber-900/10 flex justify-between items-center text-sm">
+            <a href="/posts/integrity" class="text-green-900 font-semibold hover:underline">
+              Blog
+            </a>
+            <div class="flex space-x-4">
+              <a href="/files/project-2-slides.pdf" class="text-red-900 hover:underline">Slides</a>
+              <a href="/files/project-2-paper.pdf" class="text-red-900 hover:underline">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div
+        class="bg-white rounded-2xl shadow-md shadow-amber-900/10 overflow-hidden flex flex-col
+               transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl">
+        <img src="/images/sat.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <p class="text-xs tracking-wide text-amber-800 uppercase mb-1">
+              In progress · 2025
+            </p>
+            <h3 class="text-xl font-semibold text-gray-900 leading-snug">
+              Towards a Better Understanding of SAT Solvers' Performance
+            </h3>
+            <p class="text-gray-700 text-sm leading-relaxed mt-3">
+              We study the performance of modern SAT solvers to
+              better understand the techniques that yield 
+              performance improvements in practice. 
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-amber-900/10 flex justify-between items-center text-sm">
+            <a href="/posts/sat_solvers" class="text-green-900 font-semibold hover:underline">
+              Blog
+            </a>
+            <div class="flex space-x-4">
+              <a href="/files/project-2-slides.pdf" class="text-red-900 hover:underline">Slides</a>
+              <a href="/files/project-2-paper.pdf" class="text-red-900 hover:underline">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
